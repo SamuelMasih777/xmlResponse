@@ -10,12 +10,12 @@ app.use(express.json());
 // Common TwiML XML string
 const twimlResponse = `<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say voice="woman" language="en-IN">
+    <Say voice="female" language="en-IN">
         Hello! This is an automated message from your service. 
         Your call is important to us.
     </Say>
     <Pause length="1"/>
-    <Say voice="woman" language="en-IN">
+    <Say voice="female" language="en-IN">
         Thank you for your time and have a great day!
     </Say>
 </Response>`;
